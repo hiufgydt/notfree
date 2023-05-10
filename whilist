@@ -1,0 +1,8 @@
+local keychecked = false
+local hwid = nil
+local hwidplr = game:GetService("RbxAnalyticsService"):GetClientId()
+ 
+if _G.Key == "Monkey-Real-Test-Whilist" then
+	hwid = "6F1A7CEC-C3EB-4F74-8A8A-AA801FA5FC12"
+	keychecked = true
+end
